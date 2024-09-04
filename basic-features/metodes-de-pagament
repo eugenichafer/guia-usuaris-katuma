@@ -1,2 +1,5 @@
-#Mètodes de pagament
+# Mètodes de pagament
 
+{% hint style="info" %} Has de crear algun mètode de pagament abans de poder obrir la teva botiga. {% endhint %}
+
+## Configuració d'un mètode de pagament
