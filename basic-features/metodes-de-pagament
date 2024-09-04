@@ -1,5 +1,14 @@
 # Mètodes de pagament
 
-{% hint style="info" %} Has de crear algun mètode de pagament abans de poder obrir la teva botiga. {% endhint %}
+{% hint style="info" %} 
+Has de crear algun mètode de pagament abans de poder obrir la teva botiga. 
+{% endhint %}
 
 ## Configuració d'un mètode de pagament
+
+Aneu a la pàgina Mètodes de pagament fent clic a Organitzacions al menú horitzontal principal i, a continuació, feu clic a Configuració al costat de la vostra. La pàgina Mètodes de pagament es troba al menú de l'esquerra.
+
+Clica a "Crea un nou mètode de pagament +" Arribareu a una pàgina com aquesta:
+
+
+
