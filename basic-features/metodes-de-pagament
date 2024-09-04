@@ -9,7 +9,7 @@ Has de crear algun mètode de pagament abans de poder obrir la teva botiga.
 Aneu a la pàgina Mètodes de pagament fent clic a Organitzacions al menú horitzontal principal i, a continuació, feu clic a Configuració al costat de la vostra. La pàgina Mètodes de pagament es troba al menú de l'esquerra.
 
 Clica a "Crea un nou mètode de pagament +" Arribareu a una pàgina com aquesta:
-
+![](../.gitbook/assets/Captura de pantalla 2024-09-04 a les 17.20.21)
 
 * Marqueu la vostra organització a la casella de la part dreta de la pàgina titulada Grups. Això indica a quina organització s'aplicarà el mètode de pagament que esteu a punt de crear. Podeu seleccionar més d'una organització si teniu permís per a configurar-les.
 * Nom: trieu un nom per a aquesta forma de pagament. (per exemple, "Paga amb targeta de crèdit mitjançant Paypal"). Aquest nom es mostra en la validació de la comanda i als correus electrònics de confirmació de la comanda dels clients.
