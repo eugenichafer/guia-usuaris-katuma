@@ -11,7 +11,14 @@ Aneu a la pàgina Mètodes de pagament fent clic a Organitzacions al menú horit
 Clica a "Crea un nou mètode de pagament +" Arribareu a una pàgina com aquesta:
 
 
-**Marqueu la vostra empresa, a la casella de la part dreta de la pàgina titulada Hubs. Això indica a quina empresa s'aplicarà el mètode de pagament que esteu a punt de crear. Podeu seleccionar més d'una empresa.
-
-**Nom: trieu un nom per a aquesta forma de pagament. (per exemple, "Paga amb targeta de crèdit mitjançant Paypal"). Aquest nom es mostra a la caixa i als correus electrònics de confirmació de la comanda dels clients.
+* Marqueu la vostra organització a la casella de la part dreta de la pàgina titulada Grups. Això indica a quina organització s'aplicarà el mètode de pagament que esteu a punt de crear. Podeu seleccionar més d'una organització si teniu permís per a configurar-les.
+* Nom: trieu un nom per a aquesta forma de pagament. (per exemple, "Paga amb targeta de crèdit mitjançant Paypal"). Aquest nom es mostra en la validació de la comanda i als correus electrònics de confirmació de la comanda dels clients.
+* Descripció: proporcioneu més detalls sobre la forma de pagament. Per exemple, per a una transferència bancària, introduïu les dades del compte bancari en aquest quadre en què voleu que un client faci la transferència SEPA. Aquesta descripció es mostra a la compra i als correus electrònics de confirmació de la comanda.
+* Mostra: opteu per "Només administració" o "Ambdues, validació de comanda i administració"
+{% hint style="info" %} 
+Si voleu desactivar un mètode de pagament durant un temps, però potser voldreu tornar-lo a oferir en el futur (potser a causa d'un brot de COVID, haureu de deixar temporalment d'oferir efectiu a la recollida), canvieu-lo a "Només Administració".
+{% endhint %}
+{% hint style="info" %}
+Si canvieu tots els mètodes de pagament de la vostra organització a "Només administració", la vostra botiga pemet només la visualització dels cicles de comandes actius, però no la compra
+{% endhint %}
 
