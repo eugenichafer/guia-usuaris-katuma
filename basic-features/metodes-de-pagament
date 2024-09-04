@@ -6,15 +6,15 @@ Has de crear algun mètode de pagament abans de poder obrir la teva botiga.
 
 ## Configuració d'un mètode de pagament
 
-Aneu a la pàgina Mètodes de pagament fent clic a Organitzacions al menú horitzontal principal i, a continuació, feu clic a Configuració al costat de la vostra. La pàgina Mètodes de pagament es troba al menú de l'esquerra.
+* Aneu a la pàgina Mètodes de pagament fent clic a **Organitzacions** al menú horitzontal principal i, a continuació, feu clic a **Configuració** al costat de la vostra. La pàgina **Mètodes de pagament** es troba al menú de l'esquerra.
 
-Clica a "Crea un nou mètode de pagament +" Arribareu a una pàgina com aquesta:
+Clica a **Crea un nou mètode de pagament +** Arribareu a una pàgina com aquesta:
 ![](../.gitbook/assets/Captura de pantalla 2024-09-04 a les 17.20.21)
 
 * Marqueu la vostra organització a la casella de la part dreta de la pàgina titulada Grups. Això indica a quina organització s'aplicarà el mètode de pagament que esteu a punt de crear. Podeu seleccionar més d'una organització si teniu permís per a configurar-les.
-* Nom: trieu un nom per a aquesta forma de pagament. (per exemple, "Paga amb targeta de crèdit mitjançant Paypal"). Aquest nom es mostra en la validació de la comanda i als correus electrònics de confirmació de la comanda dels clients.
-* Descripció: proporcioneu més detalls sobre la forma de pagament. Per exemple, per a una transferència bancària, introduïu les dades del compte bancari en aquest quadre en què voleu que un client faci la transferència SEPA. Aquesta descripció es mostra a la compra i als correus electrònics de confirmació de la comanda.
-* Mostra: opteu per "Només administració" o "Ambdues, validació de comanda i administració"
+* **Nom**: trieu un nom per a aquesta forma de pagament. (per exemple, "Paga amb targeta de crèdit mitjançant Paypal"). Aquest nom es mostra en la validació de la comanda i als correus electrònics de confirmació de la comanda dels clients.
+* **Descripció**: proporcioneu més detalls sobre la forma de pagament. Per exemple, per a una transferència bancària, introduïu les dades del compte bancari en aquest quadre en què voleu que un client faci la transferència SEPA. Aquesta descripció es mostra a la compra i als correus electrònics de confirmació de la comanda.
+* **Mostra**: opteu per "Només administració" o "Ambdues, validació de comanda i administració"
 {% hint style="info" %} 
 Si voleu desactivar un mètode de pagament durant un temps, però potser voldreu tornar-lo a oferir en el futur (potser a causa d'un brot de COVID, haureu de deixar temporalment d'oferir efectiu a la recollida), canvieu-lo a "Només Administració".
 {% endhint %}
@@ -22,3 +22,23 @@ Si voleu desactivar un mètode de pagament durant un temps, però potser voldreu
 Si canvieu tots els mètodes de pagament de la vostra organització a "Només administració", la vostra botiga pemet només la visualització dels cicles de comandes actius, però no la compra
 {% endhint %}
 
+
+* **Actiu**: seleccioneu si aquest mètode de pagament és visible i disponible actualment o no.
+
+* **Etiquetes**: utilitzeu regles d'etiquetes si voleu que determinats mètodes de pagament estiguin disponibles/no disponibles per a clients específics (per exemple, és possible que vulgueu permetre que només els clients majoristes paguin amb BACS, però "obligueu" els clients nacionals a pagar amb targeta de crèdit o PayPal.). Per a més informació llegiu aquí.
+
+* **Proveïdors de pagament**: seleccioneu l'opció que sigui rellevant per al mètode de pagament que esteu creant. Hi ha tres opcions:
+
+ **PayPal Express
+ **Stripe SCA
+ **Efectiu / EFT / etc. (Efectiu, xec o transferència bancària. Aquests pagaments no passen per un portal de pagament en línia i no impliquen validació automàtica)
+{% hint style="info" %}
+Recordeu! Si la vostra organització té activat "Els clients poden canviar o cancel·lar comandes mentre un cicle de comandes està obert" (que es troba a Organitzacions -> Configuració -> Preferències de la botiga), l'únic proveïdor de pagament recomanat que és compatible amb aquesta funció és "Efectiu, EFT, . ..)
+{% endhint %}
+
+* **Calculadora**: seleccioneu com voleu que s'apliquin els càrrecs associats a la forma de pagament a una comanda. Tingueu en compte que les tarifes del mètode de pagament es poden establir a zero. Vegeu a continuació per obtenir més informació sobre les tarifes del mètode de pagament.
+
+En fer clic a Crea, es crearà el mètode de pagament i tindreu nous camps per definir les tarifes del mètode de pagament. Aquests camps visibles depenen de la "Calculadora" que hàgiu seleccionat.
+{% hint style="info" %}
+Si canvieu el camp "Calculadora" de la tarifa del mètode de pagament, primer heu de desar els vostres canvis (Actualització) perquè els nous camps associats siguin visibles.
+{% endhint %}
