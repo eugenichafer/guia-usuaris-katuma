@@ -18,7 +18,7 @@ Aquest manual conté els apartats següents:
 
 [Mètodes d'enviament](https://guia.katuma.org/basic-features/metodes-denviament)
 
-[Mètodes de pagament] (https://guia.katuma.org/basic-features/metodes-de-pagament)
+[Mètodes de pagament](https://guia.katuma.org/basic-features/metodes-de-pagament)
 
 [Comissions de l'organització](https://guia.katuma.org/basic-features/comissions-de-lorganitzacio)
 
